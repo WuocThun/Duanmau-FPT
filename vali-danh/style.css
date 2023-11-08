@@ -1,0 +1,229 @@
+body{
+  background-color: black;
+  /* height: 3000px; */
+}
+*{
+  box-sizing:border-box ;
+  scroll-behavior:smooth ;
+
+}
+
+.container {
+  margin: 0 auto;
+}
+.menu {
+  position: sticky; top: 0;
+  transform: translate(0%, 0%); /* Để căn giữa thẻ nav chính xác */
+  background-color: rgba(0, 0, 0, 0.615); /* Màu nền cho thẻ nav */
+  padding: 20px; /* Khoảng cách bên trong thẻ nav */
+}
+.menu > ul {
+  padding-left: 55%;
+}
+.menu > ul > li {
+  display: inline;
+  padding: 20px;
+}
+.menu>ul>li>a{
+  color: white;
+  text-decoration: none;
+}
+.banner > img {
+  object-fit: cover; /* Để hình ảnh tràn đầy phần nền */
+  margin-top: -90px;
+  width: 100%;
+
+}
+
+.dau {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.dau > h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.tong1{
+  display: flex;
+  overflow: auto;
+}
+.phu22 {
+  flex-direction: column;
+}
+
+.phu22 {
+  background-color: rgb(2, 2, 2);
+  margin-left: 15%;
+}
+.sptong {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sp {
+  background-color: rgb(0, 0, 0);
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 30px;
+  text-align: center;
+  border-radius: 20%;
+  box-shadow: 0px 0px 10px rgb(122, 120, 120);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.sp > img {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+
+}
+.sp:hover {
+ /* opacity: 0.1; Giảm độ trong suốt của ảnh*/
+  transition: opacity 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
+  transform: scale(1.1); /* Phóng to ảnh lên 1.2 lần kích thước ban đầu */
+
+}
+.thongtin>img{
+  width: 100%;
+
+}
+
+.tt{
+  margin-left: 950px;
+  width: 500px;
+  height: 500px;
+  color: white;
+  box-shadow: 0px 0px 10px rgb(8, 8, 8);
+  background-color: rgba(69, 64, 64, 0.7); /* Màu nền cho thẻ nav */
+  transform: translate(-40%, -150%); /* Để căn giữa thẻ nav chính xác */
+}
+.tt>p{
+  padding: 30px;
+  font-size: 17px;
+  font-style: italic;
+}
+
+.ten{
+width: 330px;
+transform: translate(85%, -450%); /* Để căn giữa thẻ nav chính xác */
+font-size: 40px;
+font-style: normal;
+}
+.ds{
+ display: flex;
+ margin-left: 270px;
+ 
+}
+.mon{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  transform: translate(0%, -120%); /* Để căn giữa thẻ nav chính xác */
+  box-shadow: 0px 0px 5px white;
+
+}
+.mon>img{
+  width: 100px;
+  border-radius: 30%;
+}
+.mon:hover {
+   opacity: 0.8; /*Giảm độ trong suốt của ảnh*/
+   transform: translate(0%, -120%); /* Để căn giữa thẻ nav chính xác */
+  box-shadow: 0px 0px 10px black;
+  
+
+ }
+ .mon:hover img{
+  transform: scale(1.2); /* Phóng to ảnh lên 1.2 lần kích thước ban đầu */
+ }
+.muc{
+  margin-top: -120px;
+  color: rgb(254, 254, 254);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.muc2{
+  margin-top: 50px;
+  color: rgb(254, 254, 254);
+  text-align: center;
+  padding-bottom: 20px;
+  
+}
+.tong2{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+.phu2>img{
+  width: 300px;
+  height: 250px;
+}
+.phu2{
+  margin:10px ;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0px 0px 10px white;
+}
+.phu2>p{
+  text-decoration: line-through;
+}
+.phu2{
+  color: white;
+}
+.phu2>button{
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  color: rgb(120, 6, 6);
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+.phu2>button:hover{
+  background-color: brown;
+  color: white;
+  box-shadow: 0px 0px 5px white;
+}
+.phu2:hover{
+  background-color: white;
+  color: black;
+  
+}
+.duoi{
+  display: flex;
+  color: white;
+}
+.cuoi{
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  width: 100%;
+ padding: 200px;
+}
+#cuoi{
+  margin-left: -200px;
+}
+
+
+.map>iframe{
+  width: 100%;
+}
+.lienhe{
+  background-color: white;
+  
+  height: 550px;
+padding: 30px;
+
+}
+
+
+
+
