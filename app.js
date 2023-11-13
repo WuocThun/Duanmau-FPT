@@ -10,7 +10,7 @@ function changeImage() {
     
 }
 //gọi một hàm trong khoảng thời gian xác định (tính bằng mili giây).
-setInterval(changeImage,2000);
+setInterval(changeImage,3000);
  
 
 // chạy tự động 

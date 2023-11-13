@@ -8,6 +8,7 @@ body{
 
 }
 
+
 .container {
   margin: 0 auto;
 }
@@ -72,12 +73,15 @@ body{
   padding: 20px;
   text-align: center;
   
+  
 }
 
 .dau > h1 {
   text-align: center;
-  font-size: 30px;
-  color: rgb(248, 133, 133);
+  font-size: 45px;
+  color:rgb(228, 115, 115);
+  text-shadow: 2px 2px 2px #6f6f6f;
+
 }
 .tong1{
   display: flex;
@@ -108,7 +112,6 @@ body{
 }
 .phai>span{
   line-height: 1.5; /* Đặt khoảng cách giữa các dòng */
-
   font-size:110%;
   color: white
 }
@@ -119,12 +122,8 @@ body{
 }
 
 
- /*.sp:hover {
- /* opacity: 0.1; Giảm độ trong suốt của ảnh*/
-  /* transition: opacity 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
-  /* transform: scale(1.1); /* Phóng to ảnh lên 1.2 lần kích thước ban đầu */
 
- /*}*/
+
 
 .chuu{
 margin-bottom: -50%;
@@ -181,7 +180,7 @@ margin-bottom: -50%;
 .sp:hover {
  /* opacity: 0.1; Giảm độ trong suốt của ảnh*/
   transition: opacity 0.3s ease; /* Thêm hiệu ứng chuyển đổi */
-  transform: scale(1.1); /* Phóng to ảnh lên 1.2 lần kích thước ban đầu */
+  transform: scale(1.2); /* Phóng to ảnh lên 1.2 lần kích thước ban đầu */
 
 }
 .ten{
@@ -189,8 +188,8 @@ width: 330px;
 transform: translate(80%, -350%); /* Để căn giữa thẻ nav chính xác */
 font-size: 40px;
 font-style: normal;
-color: white;
-text-shadow: 3px 3px 3px #000;
+color: rgb(228, 115, 115);
+text-shadow: 3px 3px 3px #696969;
 }
 .ds{
  display: flex;
@@ -198,6 +197,7 @@ text-shadow: 3px 3px 3px #000;
  
 }
 .mon{
+
   text-decoration: none;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -230,7 +230,9 @@ text-shadow: 3px 3px 3px #000;
   text-align: center;
   padding-bottom: 20px;
 }
-
+.muc h1{
+  color: rgb(228, 115, 115);
+}
 .muc2{
   margin-top: 50px;
   color: rgb(254, 254, 254);
@@ -239,9 +241,10 @@ text-shadow: 3px 3px 3px #000;
   
 }
 .tong2{
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 2%;
   display: flex;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 .phu2>img{
   width: 300px;
